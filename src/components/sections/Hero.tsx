@@ -2,6 +2,7 @@ import { ArrowDown, MapPin } from 'lucide-react'
 import { motion } from 'motion/react'
 import { content } from '../../data/content'
 import { useReducedMotion } from '../../hooks/useReducedMotion'
+import GenArtCanvas from '../hero/GenArtCanvas'
 
 export default function Hero() {
   const reduced = useReducedMotion()
@@ -15,7 +16,8 @@ export default function Hero() {
 
   return (
     <section id="top" className="relative overflow-hidden">
-      <div className="mx-auto max-w-6xl px-4 pt-[clamp(4rem,10vw,8rem)] pb-[clamp(4rem,8vw,7rem)] sm:px-6">
+      <GenArtCanvas />
+      <div className="relative mx-auto max-w-6xl px-4 pt-[clamp(4rem,10vw,8rem)] pb-[clamp(4rem,8vw,7rem)] sm:px-6">
         <motion.p {...rise} className="mb-6 flex items-center gap-2 font-mono text-sm text-ink-soft">
           <MapPin size={14} aria-hidden className="text-accent" />
           {content.identity.location}

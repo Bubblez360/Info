@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Moon, Sun } from 'lucide-react'
 import { useTheme } from '../../hooks/useTheme'
 import { content } from '../../data/content'
+import MobileMenu from './MobileMenu'
 
 const links = [
   { href: '#work', label: 'Work' },
@@ -68,6 +69,7 @@ export default function Nav() {
           >
             {theme === 'dark' ? <Sun size={18} aria-hidden /> : <Moon size={18} aria-hidden />}
           </button>
+          <MobileMenu links={links} />
         </div>
       </nav>
     </header>

@@ -189,7 +189,8 @@ export const content: Content = {
   },
 
   site: {
-    url: 'https://PLACEHOLDER.vercel.app', // set after Vercel project creation (decision F6 — single SITE_URL source)
+    // single SITE_URL source = .env / Vercel env (decision F6); fallback keeps schema valid in tests
+    url: (import.meta.env?.VITE_SITE_URL as string | undefined) ?? 'https://portfolio-bubblez360.vercel.app',
     metaTitle: 'Angelo Depamaylo — Full-Stack Developer & IT Specialist',
     metaDescription:
       'Angelo "Deps" Depamaylo — full-stack developer from Zamboanga City, PH. Builder of TindaPOS and software that replaces manual work. BSIT graduate, ZPPSU 2026.',

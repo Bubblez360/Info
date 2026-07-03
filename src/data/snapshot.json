@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-07-03",
+  "user": "Bubblez360",
+  "profileUrl": "https://github.com/Bubblez360",
+  "publicRepos": 11,
+  "lastActive": "2026-06-27",
+  "languageShare": [
+    {
+      "name": "JavaScript",
+      "pct": 30
+    },
+    {
+      "name": "HTML",
+      "pct": 30
+    },
+    {
+      "name": "CSS",
+      "pct": 20
+    },
+    {
+      "name": "PHP",
+      "pct": 10
+    },
+    {
+      "name": "TypeScript",
+      "pct": 10
+    }
+  ],
+  "featured": [
+    {
+      "name": "SimplePosSystem",
+      "url": "https://github.com/Bubblez360/SimplePosSystem",
+      "stars": 0,
+      "language": "JavaScript",
+      "description": ""
+    },
+    {
+      "name": "Upstaff_dashboard_nideps",
+      "url": "https://github.com/Bubblez360/Upstaff_dashboard_nideps",
+      "stars": 0,
+      "language": "JavaScript",
+      "description": ""
+    },
+    {
+      "name": "enrollment-frontend",
+      "url": "https://github.com/Bubblez360/enrollment-frontend",
+      "stars": 1,
+      "language": "JavaScript",
+      "description": ""
+    },
+    {
+      "name": "BuBzArtwork",
+      "url": "https://github.com/Bubblez360/BuBzArtwork",
+      "stars": 0,
+      "language": "CSS",
+      "description": ""
+    }
+  ]
+}
