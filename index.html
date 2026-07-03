@@ -2,9 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
+    <title>Angelo Depamaylo — Full-Stack Developer & IT Specialist</title>
+    <meta
+      name="description"
+      content="Angelo &quot;Deps&quot; Depamaylo — full-stack developer from Zamboanga City, PH. Builder of TindaPOS and software that replaces manual work. BSIT graduate, ZPPSU 2026."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#faf9fc" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#232028" media="(prefers-color-scheme: dark)" />
+
+    <!-- Open Graph / Twitter — URLs derive from SITE_URL (decision F6); og.png added at SEO task -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Angelo Depamaylo — Full-Stack Developer & IT Specialist" />
+    <meta
+      property="og:description"
+      content="Builder of TindaPOS and software that replaces manual work. Zamboanga City, PH."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Angelo Depamaylo",
+        "alternateName": "Bubblez360",
+        "jobTitle": "Full-Stack Developer",
+        "email": "mailto:depamaylo.angelo360@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Zamboanga City",
+          "addressCountry": "PH"
+        },
+        "alumniOf": "Zamboanga Peninsula Polytechnic State University",
+        "sameAs": ["https://github.com/Bubblez360"]
+      }
+    </script>
+
+    <!-- theme init before paint: no flash of wrong theme -->
+    <script>
+      ;(function () {
+        try {
+          var t = localStorage.getItem('theme')
+          var dark = t === 'dark' || (!t && matchMedia('(prefers-color-scheme: dark)').matches)
+          if (dark) document.documentElement.classList.add('dark')
+        } catch (e) {
+          /* default light */
+        }
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>

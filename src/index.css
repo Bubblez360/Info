@@ -10,6 +10,9 @@
   --ink-soft: oklch(38% 0.02 300);
   --accent: oklch(47% 0.21 295);
   --accent-bright: oklch(61% 0.19 294);
+  /* filled surfaces that carry white text — ≥4.5:1 with white in BOTH modes */
+  --accent-solid: oklch(47% 0.21 295);
+  --accent-solid-hover: oklch(42% 0.2 295);
   --surface: oklch(96% 0.008 300);
   --line: oklch(88% 0.01 300);
 }
@@ -20,6 +23,8 @@
   --ink-soft: oklch(72% 0.015 300);
   --accent: oklch(70% 0.17 294);
   --accent-bright: oklch(61% 0.19 294);
+  --accent-solid: oklch(54% 0.2 294);
+  --accent-solid-hover: oklch(49% 0.2 294);
   --surface: oklch(23% 0.015 300);
   --line: oklch(32% 0.015 300);
 }
@@ -30,6 +35,8 @@
   --color-ink-soft: var(--ink-soft);
   --color-accent: var(--accent);
   --color-accent-bright: var(--accent-bright);
+  --color-accent-solid: var(--accent-solid);
+  --color-accent-solid-hover: var(--accent-solid-hover);
   --color-surface: var(--surface);
   --color-line: var(--line);
 
