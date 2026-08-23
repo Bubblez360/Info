@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-08-16",
+  "generatedAt": "2026-08-23",
   "user": "Bubblez360",
   "profileUrl": "https://github.com/Bubblez360",
-  "publicRepos": 12,
-  "lastActive": "2026-08-09",
+  "publicRepos": 13,
+  "lastActive": "2026-08-21",
   "languageShare": [
     {
+      "name": "CSS",
+      "pct": 25
+    },
+    {
       "name": "JavaScript",
-      "pct": 27
+      "pct": 25
     },
     {
       "name": "HTML",
-      "pct": 27
+      "pct": 25
     },
     {
       "name": "TypeScript",
-      "pct": 18
-    },
-    {
-      "name": "CSS",
-      "pct": 18
+      "pct": 17
     },
     {
       "name": "PHP",
-      "pct": 9
+      "pct": 8
     }
   ],
   "featured": [
